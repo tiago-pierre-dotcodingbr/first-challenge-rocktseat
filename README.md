@@ -1,5 +1,5 @@
-<h1 align="center">✅ To.Do React Native</h1>
-<p align="center">Essa é uma aplicação de lembrete de tarefas, para treinar um pouco mais sobre manipulação do estado no React. 🚀</p>
+<h1 align="center">✅ to-do list</h1>
+<p align="center">Esta é uma aplicação de controle de tarefas no estilo to-do list. 🚀</p>
 
 <p align="center">
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -9,7 +9,7 @@
 </p>
 
 
-<img src="https://github.com/tiagopierre/to.do-with-react-native/blob/main/screenshot/Capa.jpg?raw=true" alt="screenshot"/>
+<img src="https://github.com/tiago-pierre-dotcodingbr/first-challenge-rocktseat/blob/main/src/assets/Capa.png?raw=true" alt="screenshot"/>
 
 
 
@@ -24,32 +24,28 @@ Essa será uma aplicação de lembrete de tarefas, para treinar um pouco mais so
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - React
-- React Native
+- React Js
 - TypeScript
 
 ## ▶️ Como rodar a aplicação 
 
-Antes de começar :checkered_flag:, você precisa ter [Git](https://git-scm.com), [Node](https://nodejs.org/en/) e [Android Studio](https://developer.android.com/studio?hl=pt&gclid=Cj0KCQjwvLOTBhCJARIsACVldV3Ymb3yPN-YIX5Nzeccknkeb1_i2FL0SgJuNqle5xE3_3iFlCDwxTUaAo9uEALw_wcB&gclsrc=aw.ds) instalados.
+Antes de começar :checkered_flag:, você precisa ter [Git](https://git-scm.com) e [Node](https://nodejs.org/en/) instalados.
 
 ```bash
 # Clonar este projeto
-$ git clone https://github.com/tiagopierre/to.do-with-react-native.git
+$ git clone https://github.com/tiago-pierre-dotcodingbr/first-challenge-rocktseat.git
 
 # Acessar a pasta
-$ cd to.do-with-react-native
+$ cd first-challenge-rocktseat
 
 # Instalar as dependências 
 $ yarn
 
 # Rodar o projeto
-$ yarn android
+$ yarn dev
 
-# A aplicação irá inicializar no emulador mobile.
+# A aplicação irá inicializar no navegador padrão.
 ```
-
-## 👨🏻‍💻 Deploy da Aplicação
-
-<img src="https://github.com/tiagopierre/to.do-with-react-native/blob/main/screenshot/emfuncionamento.gif?raw=true" alt="screenshot"/>
 
 ## 📝 Licença
 
