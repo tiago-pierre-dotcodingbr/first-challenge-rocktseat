@@ -1,0 +1,113 @@
+.header {
+    height: 200px;
+    background-color: var(--gray-700);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 736px;
+    margin: -27px auto;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 90px;
+    gap: 8px
+}
+
+.input {
+    width: 100%;
+    height: 54px;
+    background-color: var(--gray-500);
+    border-radius: 8px;
+    color: var(--gray-100);
+    padding: 16px;
+    size: 1rem
+}
+
+.form button[type="submit"] {
+    height: 54px;
+    border-radius: 8px;
+    background-color: var(--blue-500);
+    cursor: pointer;
+    transition: background 0.5s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--gray-100);
+}
+
+.form button[type="submit"] p {
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 19.6px;
+}
+
+.form button[type="submit"]:hover {
+    background-color: var(--blue-300);
+}
+
+.form button[type="submit"] svg {
+    height: 16px;
+    width: 16px;
+    margin-left: 8px;
+}
+
+.listContainer {
+    margin-top: 64px;
+    padding-bottom: 10px;
+}
+
+.infosContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.infoContainer {
+    display: flex;
+    align-items: center;
+    color: var(--blue-300);
+    margin-bottom: 24px;
+}
+
+.infoContainer:last-child {
+    color: var(--purple-300);
+}
+
+.infoText {
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 16.94px;
+}
+
+.infoNumber {
+    color: var(--gray-200);
+    font-size: 0.75rem;
+    font-weight: 700;
+    margin-left: 8px;
+    background-color: var(--gray-400);
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 8px
+}
+
+.emptyContainer {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 22.4px;
+    padding: 64px 24px;
+    border-top: 1px solid var(--gray-400);
+    border-radius: 8px;
+}
+
+.emptyContainer img {
+    margin-bottom: 16px;
+}
